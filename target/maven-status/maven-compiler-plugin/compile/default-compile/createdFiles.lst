@@ -1,0 +1,6 @@
+co/uk/codeyogi/cucumber/demo/service/MemeService.class
+co/uk/codeyogi/cucumber/demo/config/MongoConfiguration.class
+co/uk/codeyogi/cucumber/demo/web/MemeController.class
+co/uk/codeyogi/cucumber/demo/repository/MemeRepository.class
+co/uk/codeyogi/cucumber/demo/Application.class
+co/uk/codeyogi/cucumber/demo/model/Meme.class

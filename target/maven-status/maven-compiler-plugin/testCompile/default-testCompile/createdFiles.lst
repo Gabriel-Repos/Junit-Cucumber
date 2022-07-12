@@ -1,0 +1,5 @@
+co/uk/codeyogi/cucumber/demo/cucumber/glue/CucumberConfiguration.class
+co/uk/codeyogi/cucumber/demo/cucumber/glue/MemeSteps.class
+co/uk/codeyogi/cucumber/demo/config/TestMongoConfiguration$MongoConfiguration.class
+co/uk/codeyogi/cucumber/demo/cucumber/CucumberIT.class
+co/uk/codeyogi/cucumber/demo/config/TestMongoConfiguration.class
