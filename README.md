@@ -1,5 +1,5 @@
 # Junit-Cucumber
-repositorio con ejemplo de como utilizar Junit con Cucumber para pruebas de Integracion / Unitarias
+Repositorio con ejemplo de como utilizar Junit (SIN Cucumber) para pruebas de Integracion / Unitarias
 
 Para poder realizar una prueba completa (pruebas de integracion) con la base de datos mongo que utiliza el servicio, se debe realizar la instalacion de la misma. 
 
