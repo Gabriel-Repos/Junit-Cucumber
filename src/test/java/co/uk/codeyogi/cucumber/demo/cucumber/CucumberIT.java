@@ -13,6 +13,6 @@ import com.epam.reportportal.cucumber.ScenarioReporter;
 @SpringBootTest(classes = {Application.class,
                             CucumberIT.class},
                             webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@CucumberOptions(plugin={"pretty","com.epam.reportportal.cucumber.ScenarioReporter"}, tags = "",features="src/test/resources/features")
+@CucumberOptions(plugin={"pretty","com.epam.reportportal.cucumber.StepReporter"}, tags = "",features="src/test/resources/features")
 public class CucumberIT {
 }
