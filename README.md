@@ -11,3 +11,11 @@ Instalacion de la base MongoDB Community en MacOS. (Se debe instalar previamente
   
 Instalacion de la base MongoDB Community en Windows.
   - Seguir las instrucciones de: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
+
+
+Realizar analisis de Jacoco y SonarQube:
+Las dependencias para estas herrmamientas ya se encuentran implementadas y configuradas. Se debe tener minimamente una instalacion local "Developer" (para poder utilizarlo)
+Para realizar un analisis completo se deben seguir los pasos:
+    - mvn clean install
+    - mvn jacoco:report
+    - mvn sonar:sonar -Dsonar.projectKey=Junit-Cucumber -Dsonar.host.url=http://localhost:9000 -Dsonar.login=sqp_655c1a3d6ae328e04ef598c5a21069df8dd51a2b
